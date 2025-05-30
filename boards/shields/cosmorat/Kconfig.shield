@@ -1,10 +1,3 @@
-# No whitespace after the comma or in your keyboard name!
-config SHIELD_COSMOS_RATA
-    def_bool $(shields_list_contains,chewy)
-
-config SHIELD_CORNE_RIGHT
-	def_bool $(shields_list_contains,corne_right)
-
 config SHIELD_CHEWY_LEFT
 	def_bool $(shields_list_contains,chewy_left)
 
