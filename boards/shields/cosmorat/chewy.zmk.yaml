@@ -1,0 +1,8 @@
+---
+file_format: 1
+id: chewy
+name: Chewy
+type: shield
+url: https://github.com/Cuttlerat/zmk-keyboard-chewy
+requires: 
+  - pro_micro

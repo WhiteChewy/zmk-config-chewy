@@ -1,0 +1,24 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            // -------------------------------------
+            // |     Q     |     W     |     E     |     R     |     T     |     Y     |
+            // |     A     |     S     |     D     |     F     |     G     |     H     |
+            // |     Z     |     X     |     C     |     V     |     B     |     N     |
+            //                                     |  LCTRL    |  LSHIFT   |  LALT     |  LGUI     |
+            //                                                             |  SPACE    |  SPACE    |
+            bindings = <
+                &kp Q      &kp W      &kp E     &kp R     &kp T     &kp Y
+                &kp A      &kp S      &kp D     &kp F     &kp G     &kp H
+                &kp Z      &kp X      &kp C     &kp V     &kp B     &kp N
+                                                &kp LCTRL &kp LSHIFT &kp LALT &kp LGUI
+                                                                     &kp SPACE &bootloader
+            >;
+        };
+    };
+};

@@ -1,0 +1,22 @@
+if SHIELD_CHEWY_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Chewy Left"
+	
+config ZMK_SPLIT
+	default y
+	
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_CHEWY_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Chewy Right"
+	
+config ZMK_SPLIT
+	default y
+
+endif
